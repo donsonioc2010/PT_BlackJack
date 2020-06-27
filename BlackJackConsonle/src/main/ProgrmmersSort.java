@@ -1,21 +1,8 @@
-package main;
 
 import java.util.Arrays;
 
-import ChipDao.GameDao;
-import runGame.GameStart;
-
-public class MainClass {
-
+public class ProgrmmersSort {
 	public static void main(String[] args) {
-		//dao 의 인스턴스값 놓기
-		//GameDao dao = GameDao.getInstance();
-		/*
-		//mainkey 는 dao의 인스턴스가 실행되면서 true로 바로 잡힘
-		while(dao.mainkey) {
-			new GameStart();
-		}
-		*/
 		int []array = {1,5,2,6,3,7,4};
 		int [][]commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
 		
@@ -58,5 +45,4 @@ public class MainClass {
 		
 		System.out.println("정답 :"+ Arrays.toString(answer));
 	}
-
 }
